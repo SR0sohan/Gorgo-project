@@ -137,6 +137,12 @@
     background-color: whitesmoke;
 }
 
+.frame:hover{
+    background-color: rgb(6, 6, 54);
+    color: white;
+    transition: 0.7s;
+}
+
 .inner-width{
     margin-top: 35px;
     display: flex;
