@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+.navbar{
+    display: flex;
+    padding: 20px;
+    
+}
+
+
+.menu{
+    flex-basis: 50%;
+   
+}
+
+.menu ul li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.logo img{
+    width: 70%;
+}
+.menu-btn{
+    margin-left: 120px;
+    margin-top: 8px;
+    flex-basis: 20%;
+    
+}
+.menu-btn button{
+    padding: 13px;
+    border-radius: 6px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    background-color: tomato;
+    
+}
+.menu-btn button:hover{
+    cursor: pointer;
+    color: tomato;
+    background-color:lightgray;
+}
+
+.menu ul li:hover{
+    cursor: pointer;
+    color: tomato;
+}
+.second-part{
+    width: 100%;
+    display: flex;
+    
+}
+
+.half-width{
+    width: 50%;
+    padding: 10px;
+    margin-top: 90px;
+}
+
+.half-txt{
+   width: 100%;
+}
+.half-txt h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.half-width p{
+    font-size: 16px;
+    color: rgb(161, 153, 153);
+    font-weight: 700;
+}
+
+.half-width img{
+    width: 90%;
+    margin-right: 300px;
+}
+
+.half-txt a i{
+    padding: 10px;
+    color:  rgb(161, 153, 153);
+    font-size: 40px;
+}
+
+.mid-section{
+    width: 100%;
+    margin: 100px 50px 10px 50px;
+}
+
+.mid-header{
+    text-align: center;
+}
+
+.mid-header p{
+    color: rgb(161, 153, 153);
+    padding: 10px;
+}
+
+.mid-images{
+    display: flex;
+
+}
+.insite{
+    margin-top: 25px;
+    
+}
+
+.insite img{
+    padding: 50px 50px 0 50px;
+}
+
+.insite h3{
+    text-align: center;
+    margin-top: 10PX;
+}
+
+
+
+.last-section{
+    margin-top: 40px;
+}
+
+.frame{
+    margin-bottom: 40px;
+    width: 250px;
+    text-align: center;
+    padding: 25px;
+    background-color: whitesmoke;
+}
+
+.inner-width{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.frame a i {
+    font-size: 30px;
+    color: tomato;
+    height: 60px;
+    width: 60px;
+    background: white;
+    border-radius: 50%;
+    line-height: 60px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.footer{
+    margin-top: 25px;
+    background-color: rgb(6, 6, 48);
+    color: white;
+    height: 400px;
+}
+
+.footer-txt{
+    text-align: center;
+    padding: 90px;
+    font-size: 25px;
+   
+}
+
+.footer-btn{
+    padding: 10px;
+    margin: 10px;
+    background-color: tomato;
+    border: none;
+    font-size: 18px;
+    border-radius: 6px;
+    color: white;
+}
+
+.footer-icon a i{
+    color: rgb(161, 153, 153);
+}
+.footer-icon a{
+    text-decoration: none;
+    color: rgb(161, 153, 153);
+}
